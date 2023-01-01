@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navigation Dock -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#home" class="logo">Hamza</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <!-- <li><a href="" class="nav-link">Contact</a></li> -->
+            </ul>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--Home  -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/portfolio-image.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>اَلسَلامُ عَلَيْكُم وَرَحْمَةُ اَللهِ وَبَرَكاتُهُ</h3>
+                <h2>I'am <span class="color">Hamza ibn Zaki</span></h2>
+                <p>
+                    Associate Consultant at EY India, with a technical experience in Technology Risk and Cyber Security. Worked extensively with different financial service organisations and delivered business solutions to develop themselves against technological / cyber constraints.
+                </p>
+                <p>
+                    Call myself a technophile and experiments out with new technologies (currently reading blockchain and cloud computing). Make and build stuffs (yeah! just for fun). Started a habit of reading fictional novels during leisure time.
+                </p>
+
+                <!-- Social -->
+                <div class="social">
+                    <!-- <a href="" class="button resume">Download Resume</a> -->
+                    <a href="https://github.com/i-am-hamza"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/misterhamza/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <!-- Resume -->
+                <a href="" class="button resume">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience container" id="experience">
+        <!-- Heading -->
+        <h2 class="heading">Domain Experience</h2>
+        <!-- Experiences Content -->
+        <div class="services-content">
+            <div class="services-box">
+                <i class="fa-solid fa-window-maximize"></i>
+                <h2>Web Development</h2>
+                <p>Hands-on experience in developing and deploying full-stack applications using MERN stack. Developed webpages for local business to expand their marketing world.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code-branch"></i>                
+                <h2>Artificial Intelligence</h2>
+                <p>Practical knowledge of AI/ML and worked as Data Analyst Intern at Inventeron Technologies. Developed a Deep Learning model for predicting remaining useful lifetime of a turbofan engine.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-lock"></i>
+                <h2>Cyber Security</h2>
+                <p>Experience in reviewing network architecture and testing of data security controls. Performed security testing of various network security solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="project container" id="projects">
+        <!-- Heading -->
+        <h2 class="heading">My Projects</h2>
+        <!-- Project Content -->
+        <div class="project-content">
+            <div class="card">
+                    <div class="card-link">
+                        <a href="">
+                            <i class="fa-solid fa-file-pen"></i>
+                        </a>
+                        <div class="card-sublink">
+                            <a href="">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://thoughtwing.org">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Thought Wing Website</h2>
+                        <p class="card-body">Created a static website for a coaching institute to provide a online identity.</p>
+                    </div>
+                    <div class="card-tech">
+                        Tech-stack: HTML/CSS, Bootstrap    
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="card-link">
+                        <a href="">
+                            <i class="fa-solid fa-file-pen"></i>
+                        </a>
+                        <div class="card-sublink">
+                            <a href="">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Speech Emotion Detector</h2>
+                        <p class="card-body">A detection model to predict emotion labels using Domain Adversial Neural Networks (DANN).</p>
+                        
+                    </div>
+                    <div class="card-tech">
+                        Tech-stack: Python, NLP, DANN    
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="card-link">
+                        <a href="">
+                            <i class="fa-solid fa-file-pen"></i>
+                        </a>
+                        <div class="card-sublink">
+                            <a href="">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Image Encryptor</h2>
+                        <p class="card-body">Developed a web application that encrypts the images using RSA algorithm and decrypts the data using 128 bits key.</p>
+                    </div>
+                    <div class="card-tech">
+                        Tech-stack: HTML/CSS, Javascript, Node.js
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="divider">
+
+        </div>
+        <div class="social">
+            <a href="mailto:userhamza@proton.me">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <!-- Copyright -->
+        <p>&#169; Hamza</p>
+    </section>
+
+
+    <!-- Javascript -->
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/7c1a4ad039.js" crossorigin="anonymous"></script>
+</body>
+</html>
