@@ -64,6 +64,7 @@ li{
     color: var(--heading-color);
     text-align: center;
     margin-bottom: 5rem;
+    border: 2px var(--main-color);
 }
 
 
@@ -336,6 +337,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
+    padding-right: 3.5rem;
 
 }
 
