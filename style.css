@@ -76,8 +76,8 @@ h2.heading::before{
     white-space: nowrap;
     border-right: 4px solid var(--bg-color);
     animation: animate 8s linear infinite;
-    filter: drop-shadow(0 0 20px var(--bg-color))
-    drop-shadow(0 0 50px var(--bg-color));
+    filter: drop-shadow(0 0 20px var(--bg-color));
+    /* drop-shadow(0 0 50px var(--bg-color)); */
     max-width: fit-content;
 }
 
@@ -466,7 +466,20 @@ header{
     }
 
     .heading{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
+    }
+
+    h2.heading::before{
+        content: attr(data-text);
+        position: absolute;
+        color:var(--bg-color);
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 4px solid var(--bg-color);
+        animation: animate 8s linear infinite;
+        filter: drop-shadow(0 0 20px var(--bg-color));
+        /* drop-shadow(0 0 50px var(--bg-color)); */
+        max-width: fit-content;
     }
 
     .services-content,
